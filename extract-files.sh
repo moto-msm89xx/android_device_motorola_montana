@@ -29,3 +29,4 @@ patchelf --remove-needed libandroid.so "${DEVICE_BLOB_ROOT}/vendor/lib/libmmcame
 patchelf --remove-needed libcamera_client.so "${DEVICE_BLOB_ROOT}/vendor/lib/libcamerabgprocservice.so"
 sed -i "s/libgui/libwui/" "${DEVICE_BLOB_ROOT}/vendor/lib/libmmcamera_ppeiscore.so"
 patchelf --add-needed libppeiscore_shim.so "${DEVICE_BLOB_ROOT}/vendor/lib/libmmcamera_ppeiscore.so"
+sed -i "s/class late_start/class hal/" "${DEVICE_BLOB_ROOT}/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc"

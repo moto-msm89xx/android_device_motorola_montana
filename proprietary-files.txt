@@ -461,7 +461,7 @@ vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_521.xml|48d6c41c1533041b50e
 
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc|a314b3cc151e2c27c8d13b44a3267d9b78540be9
 vendor/framework/com.fingerprints.extension.jar
 vendor/lib/com.fingerprints.extension@1.0_vendor.so
 
