@@ -58,13 +58,34 @@ vendor/lib/libchromatix_s5k3p3_snapshot.so
 vendor/lib/libchromatix_s5k3p3_zsl_preview_3a.so
 vendor/lib/libchromatix_s5k3p3_zsl_video_3a.so
 
+# Camera chromatix - from deen_sprout - PPKS29.68-16-36-14
+vendor/lib/libchromatix_mot_s5k3p8sp_4m_cpp_snapshot.so|67a894b883799963fd2aac5435b0c4e418961028
+vendor/lib/libchromatix_mot_s5k3p8sp_common.so|1ef0c7b0ec9cfd3b497c6e12221630fd6fc12e13
+vendor/lib/libchromatix_mot_s5k3p8sp_cpp_hfr_120.so|73821f56b7e6b999f6c8cfc0df39cc4cf5c781d5
+vendor/lib/libchromatix_mot_s5k3p8sp_cpp_liveshot.so|cd11ae05b406ecd298b9ee24dc81a277f4411e8a
+vendor/lib/libchromatix_mot_s5k3p8sp_cpp_preview.so|f6863f3293655cf1d915c2370ae8ce81429be513
+vendor/lib/libchromatix_mot_s5k3p8sp_cpp_snapshot.so|5d6dd3ecb6382afdf4fb9c0257841714586be276
+vendor/lib/libchromatix_mot_s5k3p8sp_cpp_snapshot_custom.so|ad121f1088572fa61230c1cb2859cd4a16541d6d
+vendor/lib/libchromatix_mot_s5k3p8sp_cpp_video.so|1fc9275791697e198881d8987a2aa8299b322e3f
+vendor/lib/libchromatix_mot_s5k3p8sp_default_preview_3a.so|a647296b117a43eb277c3bf4f974133efad56e61
+vendor/lib/libchromatix_mot_s5k3p8sp_default_video_3a.so|02436da56c00b59b5d9060919bf78c8ea1389768
+vendor/lib/libchromatix_mot_s5k3p8sp_hfr_120_3a.so|bb72ca357a1a36d07ee14e5e48d4e489dd6a5a80
+vendor/lib/libchromatix_mot_s5k3p8sp_hfr_120.so|7f527b0f945f6f6188715443937eb8f0362751e4
+vendor/lib/libchromatix_mot_s5k3p8sp_postproc.so|9b75b914f006f6cd9bd2405d06d4695fd9e7908d
+vendor/lib/libchromatix_mot_s5k3p8sp_preview.so|efcd62727611675f8fe5fe08e095af23872799f1
+vendor/lib/libchromatix_mot_s5k3p8sp_snapshot.so|72e3701b208a8736f054754bef6256ef123979a4
+
 # Camera eeprom - from deen_sprout - PPKS29.68-16-36-14
+vendor/lib/libmmcamera_mot_s5k3p8sp_eeprom.so|fb5695987a16bcf0c9fa4a21ca31e1e599b4dd7b
 vendor/lib/libmmcamera_ov5695_eeprom.so|e3c068b0c7e5b288cfad3ad421b6b5760057763d
 vendor/lib/libmmcamera_s5k3p3_eeprom.so|d4c47ebfd3a42ff5279f22eef3484f9616133d5f
 
 # Camera sensors
 vendor/lib/libmmcamera_mot_ov5695.so
 vendor/lib/libmmcamera_s5k3p3.so
+
+# Camera sensors - from deen_sprout - PPKS29.68-16-36-14
+vendor/lib/libmmcamera_mot_s5k3p8sp.so|cc47dc836807a84a18f2d0a571554af21d97dbbd
 
 # Display calibration
 vendor/etc/qdcm_calib_data_mipi_mot_vid_inx_1080p_521.xml|c93373787c79884ce8274dcd9813f84daf08c081
@@ -78,6 +99,9 @@ vendor/lib/com.fingerprints.extension@1.0_vendor.so
 
 # NFC
 vendor/firmware/libpn548ad_fw.so:vendor/lib/libpn548ad_fw.so
+
+# NFC - from montana - NZS26.68-117-10
+vendor/firmware/libpn553_fw.so:vendor/lib/libpn553_fw.so|79435a8077d05c9f1865860e97b157029e834a63
 
 # Opalum firmware
 etc/firmware/opalum.rx.ext.config.0:vendor/firmware/opalum.rx.ext.config.0
