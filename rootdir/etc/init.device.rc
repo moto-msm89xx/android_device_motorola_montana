@@ -1,3 +1,9 @@
+on init && property:ro.boot.hardware.sku=XT1790
+    setprop ro.boot.product.hardware.sku c
+
+on init && property:ro.boot.hardware.sku=XT1791
+    setprop ro.boot.product.hardware.sku c
+
 on init && property:ro.boot.hardware.sku=XT1793
     setprop ro.boot.product.hardware.sku n
 
