@@ -1,10 +1,10 @@
-on init && property:ro.boot.radio=APAC
+on init && property:ro.boot.hardware.sku=XT1793
     setprop ro.boot.product.hardware.sku n
 
-on init && property:ro.boot.radio=China
+on init && property:ro.boot.hardware.sku=XT1794
     setprop ro.boot.product.hardware.sku n
 
-on init && property:ro.boot.radio=EMEA
+on init && property:ro.boot.hardware.sku=XT1799-2
     setprop ro.boot.product.hardware.sku n
 
 on boot
