@@ -25,6 +25,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 TARGET_CUSTOM_DTBTOOL := dtbTool_custom
 BOARD_DTBTOOL_ARGS := --force-v3 --motorola 1
 TARGET_KERNEL_CONFIG := montana_defconfig
+TARGET_RECOVERY_KERNEL_CONFIG := montana_recovery_defconfig
 
 # NFC
 NXP_CHIP_TYPE := pn554
